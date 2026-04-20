@@ -1,0 +1,4 @@
+package br.gov.prefeiturajardelalves.portal.comunicacao.noticia;
+
+public class NoticiaService {
+}

@@ -1,0 +1,75 @@
+version: '3.9'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: portal-sqlserver
+    environment:
+      ACCEPT_EULA: 'Y'
+      MSSQL_SA_PASSWORD: ${DB_PASSWORD}
+      MSSQL_PID: Developer
+    ports:
+      - '1433:1433'
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+    networks:
+      - portal-net
+
+  redis:
+    image: redis:7-alpine
+    container_name: portal-redis
+    ports:
+      - '6379:6379'
+    volumes:
+      - redis_data:/data
+    networks:
+      - portal-net
+
+  mailhog:
+    image: mailhog/mailhog
+    container_name: portal-mailhog
+    ports:
+      - '1025:1025'
+      - '8025:8025'
+    networks:
+      - portal-net
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: ../docker/Dockerfile.backend
+    container_name: portal-backend
+    depends_on:
+      - sqlserver
+      - redis
+    environment:
+      SPRING_PROFILES_ACTIVE: prod
+      DB_URL: jdbc:sqlserver://sqlserver:1433;databaseName=portal_prefeitura;encrypt=true;trustServerCertificate=true
+      DB_USER: sa
+      DB_PASSWORD: ${DB_PASSWORD}
+      REDIS_HOST: redis
+      JWT_SECRET: ${JWT_SECRET}
+    ports:
+      - '8080:8080'
+    networks:
+      - portal-net
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: ../docker/Dockerfile.frontend
+    container_name: portal-frontend
+    depends_on:
+      - backend
+    ports:
+      - '80:80'
+    networks:
+      - portal-net
+
+volumes:
+  sqlserver_data:
+  redis_data:
+
+networks:
+  portal-net:
+    driver: bridge

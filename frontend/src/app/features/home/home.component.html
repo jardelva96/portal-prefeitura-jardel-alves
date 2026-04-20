@@ -1,0 +1,39 @@
+<main class="page-shell">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero__eyebrow">Portal municipal</div>
+    <h1 id="hero-title">Prefeitura de Jardel Alves</h1>
+    <p>
+      Um ponto de entrada para servicos publicos, transparencia, comunicacao
+      oficial e atendimento ao cidadao.
+    </p>
+
+    <div class="hero__actions" aria-label="Acoes principais">
+      <a class="button button--primary" href="/servicos">Acessar servicos</a>
+      <a class="button button--secondary" href="/transparencia">Ver transparencia</a>
+    </div>
+  </section>
+
+  <section class="service-grid" aria-label="Servicos em destaque">
+    @for (link of serviceLinks; track link.title) {
+      <a class="service-card" [href]="link.route">
+        <span>{{ link.title }}</span>
+        <p>{{ link.description }}</p>
+      </a>
+    }
+  </section>
+
+  <section class="status-panel" aria-label="Informacoes do portal">
+    <div>
+      <strong>Backend</strong>
+      <span>/api/status</span>
+    </div>
+    <div>
+      <strong>Frontend</strong>
+      <span>Angular standalone scaffold</span>
+    </div>
+    <div>
+      <strong>Proxima etapa</strong>
+      <span>Conectar os modulos aos endpoints reais</span>
+    </div>
+  </section>
+</main>

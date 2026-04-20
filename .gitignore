@@ -1,0 +1,17 @@
+# Java / Spring
+backend/target/
+*.class
+
+# Node / Angular
+frontend/node_modules/
+frontend/dist/
+.angular/
+
+# Local config and generated files
+.env
+*.log
+uploads/
+
+# IDE
+.idea/
+.vscode/

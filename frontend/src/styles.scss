@@ -1,0 +1,24 @@
+:root {
+  --color-ink: #183140;
+  --color-muted: #5d6b70;
+  --font-display: Georgia, 'Times New Roman', serif;
+  --font-body: 'Trebuchet MS', Verdana, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-body);
+  color: var(--color-ink);
+  background: #f7f0df;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
