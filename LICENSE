@@ -1,0 +1,116 @@
+LICENÇA PROPRIETÁRIA / PROPRIETARY LICENSE
+
+Copyright © 2026 Jardel Vieira Alves (github.com/jardelva96)
+Todos os direitos reservados. All rights reserved.
+
+================================================================================
+PORTUGUÊS
+================================================================================
+
+Este software, incluindo seu código-fonte, documentação, esquemas de banco
+de dados, assets visuais e quaisquer arquivos relacionados (doravante "Software"),
+é propriedade intelectual exclusiva de Jardel Vieira Alves ("Autor").
+
+O código-fonte é disponibilizado publicamente apenas para fins de
+demonstração técnica, avaliação e portfólio profissional. A publicação
+do repositório NÃO constitui licença open source.
+
+É EXPRESSAMENTE PROIBIDO, sem autorização prévia e por escrito do Autor:
+
+  1. Utilizar o Software, no todo ou em parte, para qualquer fim comercial
+     ou em produção;
+  2. Copiar, clonar, modificar, traduzir, adaptar ou criar trabalhos
+     derivados do Software;
+  3. Redistribuir, sublicenciar, revender, alugar, emprestar ou transferir
+     o Software a terceiros;
+  4. Remover, ocultar ou alterar qualquer aviso de direitos autorais,
+     marca registrada ou atribuição de autoria presente no Software;
+  5. Fazer engenharia reversa ou extrair partes substanciais do Software
+     para reimplementar funcionalidades equivalentes.
+
+USOS PERMITIDOS:
+
+  - Leitura do código para fins educacionais e avaliação técnica;
+  - Fork no GitHub exclusivamente com a funcionalidade nativa da
+     plataforma, sem uso, modificação ou execução do Software.
+
+LICENCIAMENTO COMERCIAL:
+
+Para obter licença de uso, implantação em produção, customização,
+sublicenciamento ou qualquer modalidade comercial, entre em contato:
+
+  - GitHub:  https://github.com/jardelva96
+  - E-mail:  jardel.va96@gmail.com
+
+MARCAS E NOMES:
+
+"Portal Prefeitura Jardel Alves" é um nome fictício utilizado apenas
+para fins de demonstração. Qualquer semelhança com municípios, pessoas
+ou entidades reais é mera referência para fins de apresentação comercial
+do Software.
+
+GARANTIAS E RESPONSABILIDADES:
+
+O SOFTWARE É FORNECIDO "NO ESTADO EM QUE SE ENCONTRA", SEM GARANTIAS DE
+QUALQUER ESPÉCIE, EXPRESSAS OU IMPLÍCITAS, INCLUINDO, MAS NÃO SE LIMITANDO
+A, GARANTIAS DE COMERCIABILIDADE, ADEQUAÇÃO A UM PROPÓSITO ESPECÍFICO E
+NÃO VIOLAÇÃO. EM HIPÓTESE ALGUMA O AUTOR SERÁ RESPONSÁVEL POR QUALQUER
+RECLAMAÇÃO, DANO OU OUTRA RESPONSABILIDADE, SEJA EM AÇÃO CONTRATUAL,
+DELITO OU OUTRA FORMA, DECORRENTE DE OU RELACIONADA AO SOFTWARE OU AO
+USO OU OUTRAS NEGOCIAÇÕES COM O SOFTWARE.
+
+FORO:
+
+Esta licença é regida pelas leis da República Federativa do Brasil.
+Fica eleito o foro da comarca do domicílio do Autor para dirimir
+quaisquer dúvidas oriundas deste instrumento.
+
+================================================================================
+ENGLISH
+================================================================================
+
+This software, including its source code, documentation, database schemas,
+visual assets and any related files (the "Software"), is the exclusive
+intellectual property of Jardel Vieira Alves (the "Author").
+
+The source code is made publicly available solely for purposes of technical
+demonstration, evaluation and professional portfolio. Publication of this
+repository does NOT constitute an open source license.
+
+WITHOUT THE AUTHOR'S PRIOR WRITTEN PERMISSION, IT IS EXPRESSLY PROHIBITED TO:
+
+  1. Use the Software, in whole or in part, for any commercial or
+     production purpose;
+  2. Copy, clone, modify, translate, adapt or create derivative works
+     of the Software;
+  3. Redistribute, sublicense, resell, rent, lend or transfer the
+     Software to third parties;
+  4. Remove, obscure or alter any copyright notice, trademark or
+     authorship attribution present in the Software;
+  5. Reverse engineer or extract substantial portions of the Software
+     to reimplement equivalent functionality.
+
+PERMITTED USES:
+
+  - Reading the code for educational and technical evaluation purposes;
+  - Forking on GitHub solely via the platform's native feature, without
+     using, modifying or running the Software.
+
+COMMERCIAL LICENSING:
+
+To obtain a license for usage, production deployment, customization,
+sublicensing or any commercial modality, please contact:
+
+  - GitHub:  https://github.com/jardelva96
+  - E-mail:  jardel.va96@gmail.com
+
+DISCLAIMER OF WARRANTY:
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+================================================================================

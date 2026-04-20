@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-label="Modulos de dominio">
+  <style>
+    .group { fill: #ffffff; stroke: #e5e7eb; stroke-width: 1.5; }
+    .gh    { font-family: 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 700; fill: #ffffff; letter-spacing: 1px; }
+    .mod   { font-family: 'Segoe UI', Roboto, sans-serif; font-size: 13px; fill: #111827; }
+    .hdr   { font-family: 'Segoe UI', Roboto, sans-serif; font-size: 22px; font-weight: 700; fill: #071d41; }
+    .sub   { font-family: 'Segoe UI', Roboto, sans-serif; font-size: 13px; fill: #6b7280; }
+  </style>
+
+  <rect width="1200" height="640" fill="#f9fafb"/>
+  <text x="600" y="40" text-anchor="middle" class="hdr">Módulos de domínio</text>
+  <text x="600" y="62" text-anchor="middle" class="sub">46 módulos organizados em 9 grandes áreas</text>
+
+  <!-- Institucional -->
+  <g transform="translate(40, 90)">
+    <rect width="260" height="180" rx="8" class="group"/>
+    <rect width="260" height="30" rx="8" fill="#0c326f"/>
+    <text x="130" y="20" text-anchor="middle" class="gh">INSTITUCIONAL</text>
+    <text x="15" y="55" class="mod">• Município · História · Símbolos</text>
+    <text x="15" y="80" class="mod">• Prefeito · Vice-prefeito</text>
+    <text x="15" y="105" class="mod">• Secretarias · Secretários</text>
+    <text x="15" y="130" class="mod">• Organograma</text>
+  </g>
+
+  <!-- Transparência -->
+  <g transform="translate(320, 90)">
+    <rect width="260" height="180" rx="8" class="group"/>
+    <rect width="260" height="30" rx="8" fill="#1351b4"/>
+    <text x="130" y="20" text-anchor="middle" class="gh">TRANSPARÊNCIA</text>
+    <text x="15" y="55" class="mod">• Receitas · Despesas</text>
+    <text x="15" y="80" class="mod">• Licitações · Contratos · Convênios</text>
+    <text x="15" y="105" class="mod">• Servidores · Folha · Diárias</text>
+    <text x="15" y="130" class="mod">• Obras · Veículos</text>
+    <text x="15" y="155" class="sub">Lei 12.527/2011</text>
+  </g>
+
+  <!-- e-SIC + Ouvidoria -->
+  <g transform="translate(600, 90)">
+    <rect width="260" height="180" rx="8" class="group"/>
+    <rect width="260" height="30" rx="8" fill="#155724"/>
+    <text x="130" y="20" text-anchor="middle" class="gh">ATENDIMENTO</text>
+    <text x="15" y="55" class="mod">• e-SIC · Pedidos · Recursos</text>
+    <text x="15" y="80" class="mod">• Ouvidoria · Manifestações</text>
+    <text x="15" y="105" class="mod">• Protocolo · Tramitação</text>
+    <text x="15" y="130" class="mod">• Agendamento</text>
+    <text x="15" y="155" class="sub">LAI · Lei 13.460/2017</text>
+  </g>
+
+  <!-- Serviços + Tributos -->
+  <g transform="translate(880, 90)">
+    <rect width="280" height="180" rx="8" class="group"/>
+    <rect width="280" height="30" rx="8" fill="#dd2c74"/>
+    <text x="140" y="20" text-anchor="middle" class="gh">CIDADÃO</text>
+    <text x="15" y="55" class="mod">• Carta de Serviços</text>
+    <text x="15" y="80" class="mod">• IPTU · ISS · Taxas</text>
+    <text x="15" y="105" class="mod">• NFS-e · Certidões</text>
+    <text x="15" y="130" class="mod">• Protocolo online</text>
+  </g>
+
+  <!-- Comunicação -->
+  <g transform="translate(40, 300)">
+    <rect width="260" height="180" rx="8" class="group"/>
+    <rect width="260" height="30" rx="8" fill="#7c3aed"/>
+    <text x="130" y="20" text-anchor="middle" class="gh">COMUNICAÇÃO</text>
+    <text x="15" y="55" class="mod">• Notícias · Categorias · Tags</text>
+    <text x="15" y="80" class="mod">• Eventos · Agenda do Prefeito</text>
+    <text x="15" y="105" class="mod">• Banners · Galeria</text>
+    <text x="15" y="130" class="mod">• Newsletter</text>
+  </g>
+
+  <!-- Publicações -->
+  <g transform="translate(320, 300)">
+    <rect width="260" height="180" rx="8" class="group"/>
+    <rect width="260" height="30" rx="8" fill="#b45309"/>
+    <text x="130" y="20" text-anchor="middle" class="gh">PUBLICAÇÕES</text>
+    <text x="15" y="55" class="mod">• Diário Oficial do Município</text>
+    <text x="15" y="80" class="mod">• Matérias · Edições · Decretos</text>
+    <text x="15" y="105" class="mod">• Concursos · Editais</text>
+    <text x="15" y="130" class="mod">• Inscrições online</text>
+  </g>
+
+  <!-- Turismo e Cultura -->
+  <g transform="translate(600, 300)">
+    <rect width="260" height="180" rx="8" class="group"/>
+    <rect width="260" height="30" rx="8" fill="#0ea5e9"/>
+    <text x="130" y="20" text-anchor="middle" class="gh">TURISMO E CULTURA</text>
+    <text x="15" y="55" class="mod">• Pontos turísticos</text>
+    <text x="15" y="80" class="mod">• Roteiros</text>
+    <text x="15" y="105" class="mod">• Patrimônio cultural</text>
+    <text x="15" y="130" class="mod">• Projetos culturais</text>
+  </g>
+
+  <!-- LGPD + Contato -->
+  <g transform="translate(880, 300)">
+    <rect width="280" height="180" rx="8" class="group"/>
+    <rect width="280" height="30" rx="8" fill="#dc2626"/>
+    <text x="140" y="20" text-anchor="middle" class="gh">COMPLIANCE</text>
+    <text x="15" y="55" class="mod">• LGPD · Política · DPO</text>
+    <text x="15" y="80" class="mod">• Solicitações do titular</text>
+    <text x="15" y="105" class="mod">• Contato · Busca</text>
+    <text x="15" y="130" class="mod">• Auditoria completa</text>
+    <text x="15" y="155" class="sub">Lei 13.709/2018</text>
+  </g>
+
+  <!-- Integrações -->
+  <g transform="translate(40, 510)">
+    <rect width="1120" height="100" rx="8" class="group"/>
+    <rect width="1120" height="30" rx="8" fill="#111827"/>
+    <text x="560" y="20" text-anchor="middle" class="gh">INTEGRAÇÕES (preparadas para futura ativação)</text>
+    <text x="20"  y="60" class="mod">• gov.br (SSO)</text>
+    <text x="180" y="60" class="mod">• VLibras</text>
+    <text x="320" y="60" class="mod">• Receita Federal</text>
+    <text x="500" y="60" class="mod">• SEFAZ</text>
+    <text x="620" y="60" class="mod">• PIX</text>
+    <text x="720" y="60" class="mod">• Certificado Digital</text>
+    <text x="920" y="60" class="mod">• Diário Oficial Estadual</text>
+    <text x="20"  y="85" class="sub">Todos os módulos com logs de integração, retry e circuit breaker prontos para configurar.</text>
+  </g>
+</svg>
