@@ -1,0 +1,28 @@
+name: Deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: Ambiente de destino
+        type: choice
+        required: true
+        default: homolog
+        options:
+          - homolog
+          - producao
+
+jobs:
+  deploy:
+    name: Deploy ${{ inputs.environment }}
+    runs-on: ubuntu-latest
+    environment: ${{ inputs.environment }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Placeholder
+        run: |
+          echo "Deploy para ${{ inputs.environment }} ainda nao implementado."
+          echo "Configurar steps de build + push de imagem + deploy quando o projeto sair do scaffold."
